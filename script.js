@@ -4,8 +4,8 @@ const student = {
 	age: "26"
 }
 
-getKeys(student){
-	return Object.keys(student);
+getKeys(obj){
+	return Object.keys(obj);
 }
 
 console.log(getKeys(student));
